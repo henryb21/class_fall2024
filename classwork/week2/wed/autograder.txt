@@ -1,0 +1,12 @@
+TEST 1: your /home/m77z631/csci112_fall2024 exists
+PASS
+
+TEST 2: it is a git repository
+PASS
+
+TEST 3: there is a commit with tag my_first_tag
+FAIL
+
+There is at least one mistake
+Last updated on:
+Wed Aug 28 09:13:58 MDT 2024
