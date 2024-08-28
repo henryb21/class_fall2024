@@ -5,8 +5,8 @@ TEST 2: it is a git repository
 PASS
 
 TEST 3: there is a commit with tag my_first_tag
-FAIL
+PASS
 
-There is at least one mistake
+full credit
 Last updated on:
-Wed Aug 28 09:13:58 MDT 2024
+Wed Aug 28 13:12:30 MDT 2024
