@@ -38,7 +38,7 @@ int main() {
 			break;
 		default:
 			printf("Error: bad input\n");
-			return 0;
+			return 1;
 			break;
 	}
 	
