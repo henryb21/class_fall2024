@@ -16,7 +16,7 @@ int main() {
 	char strings[MAX_STRING_COUNT][MAX_STRING_LENGTH];
 	int count = 0;
 
-	in = fopen("/public/labs/lab7/counties1.txt", "r");
+	in = fopen("/public/labs/lab8/counties1.txt", "r");
 	if(!in){
 		printf("Failed to open counties1.txt");
 		fclose(in);
@@ -27,7 +27,10 @@ int main() {
 	}
 
 	fclose(in);
-	
+	printf("~~Welcome to the county database!");
+	printf("~~To search for a county by seat, press 1.");
+	printf("~~To search for counties in a population range, press 2.");
+	printf("~~To exit, press any other key.");	
 	printf("Before sorting, arr of strings is\n");
 	for(int i=0;i<count;i++) {
 		printf("%s\n ", strings[i]);
