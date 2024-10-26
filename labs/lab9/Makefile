@@ -19,4 +19,4 @@ utils.o: utils.c utils.h
 	$(CC) $(CFLAGS) utils.c
 
 clean:
-	rm -rf *.o lab9
+	rm -rf *.o

@@ -1,3 +1,4 @@
+#include <string.h>
 #include "sort.h"
 
 int get_min_in_range(County counties[], int count, int start) {

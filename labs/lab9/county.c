@@ -1,3 +1,4 @@
+#include <string.h>
 #include "county.h"
 
 County add_county(char name[100], char seat[25], int pop) {
