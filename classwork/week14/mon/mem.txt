@@ -1,0 +1,17 @@
+1. There are three total memory errors.
+2. There is 1 total memory leak.
+3. The nature of the errors include an invalid reading of size 4, or a read use after free, an invalid writing of size
+4, or a write beyond bounds, and finally a memory leak because of a failure to not free after using malloc. The
+following lines prove these errors:
+
+==1951879== Invalid read of size 4
+==1951879==    at 0x401163: main
+==1951879==  Address 0x4a70040 is 0 bytes inside a block of size 8 free'd
+==1951879==    at 0x4847B2C: free
+
+==1951879== Invalid write of size 4
+==1951879==    at 0x401199: main
+==1951879==  Address 0x4a700b8 is 0 bytes after a block of size 40 alloc'd
+
+==1951879== 40 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==1951879==    at 0x484480F: malloc
